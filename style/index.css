@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: white!important;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.main {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    margin: auto;
+}
+
+.logo{
+    /* background-color: black; */
+    width: 220px;
+}
+img{
+    width: 220px;
+    border-radius:20px;
+
+}
+
+#navbar{
+    /* background-color: black; */
+
+    position: relative;
+    height: auto;
+    margin: auto;
+}
+
+li a{
+    color:black;
+}
+
+/* .container{
+    background-color: red;
+} */

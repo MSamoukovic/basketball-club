@@ -1,0 +1,30 @@
+.flexContainer {
+  position: relative;
+  width: 100%;
+  margin-top: 5px;
+  padding-bottom: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+  .flexContainer > div {
+      background-color: white;
+      width: 270px;
+      height: 130px;
+      margin: 10px;
+  }
+
+  .flexContainer img {
+      border: 1px solid white;
+      border-radius: 4px;
+      width: 270px;
+      height: 130px;
+      box-sizing: border-box;
+      font-size: 12px;
+      filter: grayscale(60%);
+  }
+
+  .flexContainer img:hover {
+      filter: grayscale(0);
+  }
