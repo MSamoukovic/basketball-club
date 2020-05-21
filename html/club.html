@@ -29,7 +29,8 @@
 <body>
   <div class = "main">
 
-    <div class="container">
+    <div class="container1">
+      <div class="container">
         <div class="row justify-content-start">
           <div class="col-3">
             <div class="logo">
@@ -38,9 +39,9 @@
         </div>
           <div class="col-9"  id = "navbar">
               <h1>Club</h1>
-            <ul class="nav">
+            <ul class="nav ">
                 <li class="nav-item">
-                  <a class="nav-link active" href="../index.html">PO&Ccaron;ETNA</a>
+                  <a class="nav-link " href="../index.html">PO&Ccaron;ETNA</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">KLUB</a>
@@ -61,6 +62,81 @@
             </ul>
           </div>
         </div>
+      </div>
+</div>
+
+<div class="containerForMobile">
+  <nav class="navbar navbar-dark  indigo darken-2">
+  
+    <div class="logoForMobile">
+              <img src ="../images/LOGO.png">
+            </div>
+            <div class="title">
+              <h1>Club</h1>
+            </div>
+  
+    <button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22"
+      aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon3"><span></span><span></span><span></span></div>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent22">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html">PO&Ccaron;ETNA <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">KLUB</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="competitions.html">TAKMI&Ccaron;ENJA</a>
+        </li>
+        <li class="nav-item">
+  
+  
+          <a class="nav-link"  id ="galleryLink" href="#">GALERIJA</a>
+              <div id="links">      
+                <a class="nav-link" href="foto_gallery.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Foto Galerija</a>     
+                <a class="nav-link" href="video_gallery.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Video Galerija</a>
+            </div>
+  
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">KONTAKT</a>
+        </li>
+      </ul>
+  </div>
+  </nav>
+  </div>
+<footer>
+  <div id="data_in_footer">
+    <b>POSJETITE NAS</b><br />
+
+    <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; I. Sarajevo<br />
+    <i class="fas fa-envelope"></i>&nbsp; Email: kk@gmail.com <br />
+    <i class="fas fa-phone"></i>&nbsp; Telefon: 057/355/000 <br />
+    <i class="fab fa-viber"></i>&nbsp; Viber: 065 000 000 <br />
+    <br />
+    <p>
+        <b>PRATITE NAS</b>
+        &nbsp;
+        <a href="https://www.facebook.com/deluxekolaci/" class="fa fa-facebook" target="_blank"> </a> &nbsp;
+        <a href="https://www.instagram.com/_torta_i_ko/?hl=en" class="fa fa-instagram" target="_blank"></a>
+    </p>
+</div>  
+</footer>
     </div>
+
+    <script>
+      $(function() {
+          $('#galleryLink').click(function() {
+            var x = document.getElementById("links");
+            if(x.style.display === "block")
+              x.style.display = "none"; 
+            else
+              $('#links').show();
+              return false;
+          });        
+      });
+      </script>
 </body>
 </html>
