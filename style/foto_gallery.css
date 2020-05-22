@@ -11,7 +11,7 @@
     .flexContainer > div {
         background-color: white;
         width: 270px;
-        height: 130px;
+        height: 250px;
         margin: 10px;
     }
   
@@ -19,7 +19,7 @@
         border: 1px solid white;
         border-radius: 4px;
         width: 270px;
-        height: 130px;
+        height: 230px;
         box-sizing: border-box;
         font-size: 12px;
         filter: grayscale(60%);
@@ -27,4 +27,12 @@
   
     .flexContainer img:hover {
         filter: grayscale(0);
+    }
+
+    .lb-nav a.lb-next{
+           opacity:0.31!important;
+    }
+
+    .lb-nav a.lb-prev{
+        opacity:0.31!important;
     }
