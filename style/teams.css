@@ -41,9 +41,10 @@
         filter: grayscale(0);
     }
 
-    p{
+    h6{
         font-size: 17px;
         text-align: center;
+        padding-top: 5px;
     }
 
     .project-tab #tabs{

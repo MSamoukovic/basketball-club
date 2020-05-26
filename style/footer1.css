@@ -20,9 +20,9 @@ footer {
     background-color: white;
     padding: 15px;
     height: auto;
-	width:250px;
+	width:260px;
     overflow: hidden;
-	margin:auto;
+    margin:auto;
 }
 
 footer a {
@@ -48,6 +48,6 @@ footer a {
     padding-right: 12px;
 }
 
-.fa:hover {
-    background-color: #666666;
+a:hover {
+    color: red!important;
 }
